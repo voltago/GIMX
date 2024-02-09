@@ -3110,6 +3110,7 @@ void launcherFrame::checkFirmware()
     [C_TYPE_DF_PS2]     = "EMUDF.hex",
     [C_TYPE_DFP_PS2]    = "EMUDFP.hex",
     [C_TYPE_GTF_PS2]    = "EMUGTF.hex",
+    [C_TYPE_360_GUITAR] = "EMU360GUITAR.hex"
   };
 
   if (firmwares[rtype][0] == '\0')
